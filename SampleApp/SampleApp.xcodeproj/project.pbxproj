@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0D89DB21CA5906C003E2DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89DB11CA5906C003E2DF7 /* main.m */; };
+		D0D89DBD1CA5906C003E2DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D89DBC1CA5906C003E2DF7 /* Assets.xcassets */; };
+		D0D89DCB1CA590BF003E2DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89DC91CA590BF003E2DF7 /* AppDelegate.m */; };
+		D0D89DCE1CA590EC003E2DF7 /* TFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89DCD1CA590EC003E2DF7 /* TFirstViewController.m */; };
+		D0D89DD01CA590FD003E2DF7 /* TFirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89DCF1CA590FD003E2DF7 /* TFirstView.xib */; };
+		D0D89DD31CA59449003E2DF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D89DD21CA59449003E2DF7 /* Default-568h@2x.png */; };
+		D0D89DD71CA5974A003E2DF7 /* TDisclosureInfoButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89DD61CA5974A003E2DF7 /* TDisclosureInfoButtonCell.m */; };
+		D0D89DD91CA597A4003E2DF7 /* TDisclosureInfoButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89DD81CA597A4003E2DF7 /* TDisclosureInfoButtonCell.xib */; };
+		D0D89DDD1CA59B3E003E2DF7 /* TBulbImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89DDB1CA59B3E003E2DF7 /* TBulbImageCell.m */; };
+		D0D89DDE1CA59B3E003E2DF7 /* TBulbImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89DDC1CA59B3E003E2DF7 /* TBulbImageCell.xib */; };
+		D0D89DE51CA59F2B003E2DF7 /* TCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89DE41CA59F2B003E2DF7 /* TCollectionViewController.m */; };
+		D0D89DE71CA59F3B003E2DF7 /* TCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89DE61CA59F3B003E2DF7 /* TCollectionView.xib */; };
+		D0D89DEB1CA5A2E4003E2DF7 /* TCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89DE91CA5A2E4003E2DF7 /* TCollectionViewCell.m */; };
+		D0D89DEC1CA5A2E4003E2DF7 /* TCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89DEA1CA5A2E4003E2DF7 /* TCollectionViewCell.xib */; };
+		D0D89DF01CA63BB2003E2DF7 /* TMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89DEF1CA63BB2003E2DF7 /* TMapViewController.m */; };
+		D0D89DF21CA63BC2003E2DF7 /* TMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89DF11CA63BC2003E2DF7 /* TMapView.xib */; };
+		D0D89DF41CA63EF7003E2DF7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D89DF31CA63EF7003E2DF7 /* MapKit.framework */; };
+		D0D89DF61CA643E2003E2DF7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D89DF51CA643E2003E2DF7 /* CoreLocation.framework */; };
+		D0D89DFA1CA65E73003E2DF7 /* TDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89DF71CA65E73003E2DF7 /* TDatePickerView.xib */; };
+		D0D89DFB1CA65E73003E2DF7 /* TDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89DF91CA65E73003E2DF7 /* TDatePickerViewController.m */; };
+		D0D89DFF1CA65F74003E2DF7 /* TDatePickerCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89DFD1CA65F74003E2DF7 /* TDatePickerCellTableViewCell.m */; };
+		D0D89E001CA65F74003E2DF7 /* TDatePickerCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89DFE1CA65F74003E2DF7 /* TDatePickerCellTableViewCell.xib */; };
+		D0D89E021CA665E6003E2DF7 /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D89E011CA665E6003E2DF7 /* calendar@2x.png */; };
+		D0D89E061CA66783003E2DF7 /* TImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89E041CA66783003E2DF7 /* TImageTableViewCell.m */; };
+		D0D89E071CA66783003E2DF7 /* TImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89E051CA66783003E2DF7 /* TImageTableViewCell.xib */; };
+		D0D89E0D1CA66FEC003E2DF7 /* NoImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D89E0C1CA66FEC003E2DF7 /* NoImage@2x.png */; };
+		D0D89E101CA67394003E2DF7 /* bulbOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D89E0E1CA67394003E2DF7 /* bulbOff@2x.png */; };
+		D0D89E111CA67394003E2DF7 /* bulbON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D89E0F1CA67394003E2DF7 /* bulbON@2x.png */; };
+		D0D89E141CA67535003E2DF7 /* TUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89E131CA67535003E2DF7 /* TUserInfoViewController.m */; };
+		D0D89E161CA67573003E2DF7 /* TUserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89E151CA67573003E2DF7 /* TUserInfoView.xib */; };
+		D0D89E1A1CA6BF99003E2DF7 /* TTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D89E181CA6BF99003E2DF7 /* TTextViewViewController.m */; };
+		D0D89E1B1CA6BF99003E2DF7 /* TTextViewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D89E191CA6BF99003E2DF7 /* TTextViewView.xib */; };
+		D0D89E1F1CA710C0003E2DF7 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0D89E1C1CA710C0003E2DF7 /* image1.jpg */; };
+		D0D89E201CA710C0003E2DF7 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0D89E1D1CA710C0003E2DF7 /* image2.jpg */; };
+		D0D89E211CA710C0003E2DF7 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0D89E1E1CA710C0003E2DF7 /* image3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0D89DAD1CA5906C003E2DF7 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D89DB11CA5906C003E2DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0D89DBC1CA5906C003E2DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0D89DC11CA5906C003E2DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D89DC81CA590BF003E2DF7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0D89DC91CA590BF003E2DF7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0D89DCC1CA590EC003E2DF7 /* TFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFirstViewController.h; sourceTree = "<group>"; };
+		D0D89DCD1CA590EC003E2DF7 /* TFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFirstViewController.m; sourceTree = "<group>"; };
+		D0D89DCF1CA590FD003E2DF7 /* TFirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFirstView.xib; sourceTree = "<group>"; };
+		D0D89DD21CA59449003E2DF7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D0D89DD51CA5974A003E2DF7 /* TDisclosureInfoButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDisclosureInfoButtonCell.h; sourceTree = "<group>"; };
+		D0D89DD61CA5974A003E2DF7 /* TDisclosureInfoButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDisclosureInfoButtonCell.m; sourceTree = "<group>"; };
+		D0D89DD81CA597A4003E2DF7 /* TDisclosureInfoButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDisclosureInfoButtonCell.xib; sourceTree = "<group>"; };
+		D0D89DDA1CA59B3E003E2DF7 /* TBulbImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBulbImageCell.h; sourceTree = "<group>"; };
+		D0D89DDB1CA59B3E003E2DF7 /* TBulbImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBulbImageCell.m; sourceTree = "<group>"; };
+		D0D89DDC1CA59B3E003E2DF7 /* TBulbImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBulbImageCell.xib; sourceTree = "<group>"; };
+		D0D89DE31CA59F2B003E2DF7 /* TCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCollectionViewController.h; sourceTree = "<group>"; };
+		D0D89DE41CA59F2B003E2DF7 /* TCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCollectionViewController.m; sourceTree = "<group>"; };
+		D0D89DE61CA59F3B003E2DF7 /* TCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCollectionView.xib; sourceTree = "<group>"; };
+		D0D89DE81CA5A2E4003E2DF7 /* TCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCollectionViewCell.h; sourceTree = "<group>"; };
+		D0D89DE91CA5A2E4003E2DF7 /* TCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCollectionViewCell.m; sourceTree = "<group>"; };
+		D0D89DEA1CA5A2E4003E2DF7 /* TCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCollectionViewCell.xib; sourceTree = "<group>"; };
+		D0D89DEE1CA63BB2003E2DF7 /* TMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapViewController.h; sourceTree = "<group>"; };
+		D0D89DEF1CA63BB2003E2DF7 /* TMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMapViewController.m; sourceTree = "<group>"; };
+		D0D89DF11CA63BC2003E2DF7 /* TMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMapView.xib; sourceTree = "<group>"; };
+		D0D89DF31CA63EF7003E2DF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D0D89DF51CA643E2003E2DF7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D0D89DF71CA65E73003E2DF7 /* TDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDatePickerView.xib; sourceTree = "<group>"; };
+		D0D89DF81CA65E73003E2DF7 /* TDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDatePickerViewController.h; sourceTree = "<group>"; };
+		D0D89DF91CA65E73003E2DF7 /* TDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDatePickerViewController.m; sourceTree = "<group>"; };
+		D0D89DFC1CA65F74003E2DF7 /* TDatePickerCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDatePickerCellTableViewCell.h; sourceTree = "<group>"; };
+		D0D89DFD1CA65F74003E2DF7 /* TDatePickerCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDatePickerCellTableViewCell.m; sourceTree = "<group>"; };
+		D0D89DFE1CA65F74003E2DF7 /* TDatePickerCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDatePickerCellTableViewCell.xib; sourceTree = "<group>"; };
+		D0D89E011CA665E6003E2DF7 /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
+		D0D89E031CA66783003E2DF7 /* TImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TImageTableViewCell.h; sourceTree = "<group>"; };
+		D0D89E041CA66783003E2DF7 /* TImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TImageTableViewCell.m; sourceTree = "<group>"; };
+		D0D89E051CA66783003E2DF7 /* TImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TImageTableViewCell.xib; sourceTree = "<group>"; };
+		D0D89E0C1CA66FEC003E2DF7 /* NoImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NoImage@2x.png"; sourceTree = "<group>"; };
+		D0D89E0E1CA67394003E2DF7 /* bulbOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bulbOff@2x.png"; sourceTree = "<group>"; };
+		D0D89E0F1CA67394003E2DF7 /* bulbON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bulbON@2x.png"; sourceTree = "<group>"; };
+		D0D89E121CA67535003E2DF7 /* TUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUserInfoViewController.h; sourceTree = "<group>"; };
+		D0D89E131CA67535003E2DF7 /* TUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUserInfoViewController.m; sourceTree = "<group>"; };
+		D0D89E151CA67573003E2DF7 /* TUserInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TUserInfoView.xib; sourceTree = "<group>"; };
+		D0D89E171CA6BF99003E2DF7 /* TTextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTextViewViewController.h; sourceTree = "<group>"; };
+		D0D89E181CA6BF99003E2DF7 /* TTextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTextViewViewController.m; sourceTree = "<group>"; };
+		D0D89E191CA6BF99003E2DF7 /* TTextViewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTextViewView.xib; sourceTree = "<group>"; };
+		D0D89E1C1CA710C0003E2DF7 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		D0D89E1D1CA710C0003E2DF7 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		D0D89E1E1CA710C0003E2DF7 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D89DAA1CA5906C003E2DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D89DF61CA643E2003E2DF7 /* CoreLocation.framework in Frameworks */,
+				D0D89DF41CA63EF7003E2DF7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D89DA41CA5906C003E2DF7 = {
+			isa = PBXGroup;
+			children = (
+				D0D89DF51CA643E2003E2DF7 /* CoreLocation.framework */,
+				D0D89DF31CA63EF7003E2DF7 /* MapKit.framework */,
+				D0D89DAF1CA5906C003E2DF7 /* SampleApp */,
+				D0D89DAE1CA5906C003E2DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D89DAE1CA5906C003E2DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D89DAD1CA5906C003E2DF7 /* SampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D89DAF1CA5906C003E2DF7 /* SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				D0D89DD41CA596FD003E2DF7 /* customcells */,
+				D0D89DC71CA590BF003E2DF7 /* App */,
+				D0D89DCA1CA590BF003E2DF7 /* viewcontrollers */,
+				D0D89DBC1CA5906C003E2DF7 /* Assets.xcassets */,
+				D0D89DC11CA5906C003E2DF7 /* Info.plist */,
+				D0D89DB01CA5906C003E2DF7 /* Supporting Files */,
+			);
+			path = SampleApp;
+			sourceTree = "<group>";
+		};
+		D0D89DB01CA5906C003E2DF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D89DD11CA59449003E2DF7 /* images */,
+				D0D89DB11CA5906C003E2DF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0D89DC71CA590BF003E2DF7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D0D89DC81CA590BF003E2DF7 /* AppDelegate.h */,
+				D0D89DC91CA590BF003E2DF7 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D0D89DCA1CA590BF003E2DF7 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				D0D89DF71CA65E73003E2DF7 /* TDatePickerView.xib */,
+				D0D89DF81CA65E73003E2DF7 /* TDatePickerViewController.h */,
+				D0D89DF91CA65E73003E2DF7 /* TDatePickerViewController.m */,
+				D0D89DCC1CA590EC003E2DF7 /* TFirstViewController.h */,
+				D0D89DCD1CA590EC003E2DF7 /* TFirstViewController.m */,
+				D0D89DCF1CA590FD003E2DF7 /* TFirstView.xib */,
+				D0D89DE31CA59F2B003E2DF7 /* TCollectionViewController.h */,
+				D0D89DE41CA59F2B003E2DF7 /* TCollectionViewController.m */,
+				D0D89DE61CA59F3B003E2DF7 /* TCollectionView.xib */,
+				D0D89DEE1CA63BB2003E2DF7 /* TMapViewController.h */,
+				D0D89DEF1CA63BB2003E2DF7 /* TMapViewController.m */,
+				D0D89DF11CA63BC2003E2DF7 /* TMapView.xib */,
+				D0D89E121CA67535003E2DF7 /* TUserInfoViewController.h */,
+				D0D89E131CA67535003E2DF7 /* TUserInfoViewController.m */,
+				D0D89E151CA67573003E2DF7 /* TUserInfoView.xib */,
+				D0D89E171CA6BF99003E2DF7 /* TTextViewViewController.h */,
+				D0D89E181CA6BF99003E2DF7 /* TTextViewViewController.m */,
+				D0D89E191CA6BF99003E2DF7 /* TTextViewView.xib */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		D0D89DD11CA59449003E2DF7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D0D89E1C1CA710C0003E2DF7 /* image1.jpg */,
+				D0D89E1D1CA710C0003E2DF7 /* image2.jpg */,
+				D0D89E1E1CA710C0003E2DF7 /* image3.jpg */,
+				D0D89E011CA665E6003E2DF7 /* calendar@2x.png */,
+				D0D89E0E1CA67394003E2DF7 /* bulbOff@2x.png */,
+				D0D89E0F1CA67394003E2DF7 /* bulbON@2x.png */,
+				D0D89E0C1CA66FEC003E2DF7 /* NoImage@2x.png */,
+				D0D89DD21CA59449003E2DF7 /* Default-568h@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D0D89DD41CA596FD003E2DF7 /* customcells */ = {
+			isa = PBXGroup;
+			children = (
+				D0D89DD51CA5974A003E2DF7 /* TDisclosureInfoButtonCell.h */,
+				D0D89DD61CA5974A003E2DF7 /* TDisclosureInfoButtonCell.m */,
+				D0D89DD81CA597A4003E2DF7 /* TDisclosureInfoButtonCell.xib */,
+				D0D89DDA1CA59B3E003E2DF7 /* TBulbImageCell.h */,
+				D0D89DDB1CA59B3E003E2DF7 /* TBulbImageCell.m */,
+				D0D89DDC1CA59B3E003E2DF7 /* TBulbImageCell.xib */,
+				D0D89DE81CA5A2E4003E2DF7 /* TCollectionViewCell.h */,
+				D0D89DE91CA5A2E4003E2DF7 /* TCollectionViewCell.m */,
+				D0D89DEA1CA5A2E4003E2DF7 /* TCollectionViewCell.xib */,
+				D0D89DFC1CA65F74003E2DF7 /* TDatePickerCellTableViewCell.h */,
+				D0D89DFD1CA65F74003E2DF7 /* TDatePickerCellTableViewCell.m */,
+				D0D89DFE1CA65F74003E2DF7 /* TDatePickerCellTableViewCell.xib */,
+				D0D89E031CA66783003E2DF7 /* TImageTableViewCell.h */,
+				D0D89E041CA66783003E2DF7 /* TImageTableViewCell.m */,
+				D0D89E051CA66783003E2DF7 /* TImageTableViewCell.xib */,
+			);
+			path = customcells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D89DAC1CA5906C003E2DF7 /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D89DC41CA5906C003E2DF7 /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				D0D89DA91CA5906C003E2DF7 /* Sources */,
+				D0D89DAA1CA5906C003E2DF7 /* Frameworks */,
+				D0D89DAB1CA5906C003E2DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleApp;
+			productName = SampleApp;
+			productReference = D0D89DAD1CA5906C003E2DF7 /* SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D89DA51CA5906C003E2DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Subhash Amale";
+				TargetAttributes = {
+					D0D89DAC1CA5906C003E2DF7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3L392Y67X3;
+					};
+				};
+			};
+			buildConfigurationList = D0D89DA81CA5906C003E2DF7 /* Build configuration list for PBXProject "SampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0D89DA41CA5906C003E2DF7;
+			productRefGroup = D0D89DAE1CA5906C003E2DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D89DAC1CA5906C003E2DF7 /* SampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D89DAB1CA5906C003E2DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D89DF21CA63BC2003E2DF7 /* TMapView.xib in Resources */,
+				D0D89E001CA65F74003E2DF7 /* TDatePickerCellTableViewCell.xib in Resources */,
+				D0D89E021CA665E6003E2DF7 /* calendar@2x.png in Resources */,
+				D0D89E101CA67394003E2DF7 /* bulbOff@2x.png in Resources */,
+				D0D89E0D1CA66FEC003E2DF7 /* NoImage@2x.png in Resources */,
+				D0D89DEC1CA5A2E4003E2DF7 /* TCollectionViewCell.xib in Resources */,
+				D0D89DD01CA590FD003E2DF7 /* TFirstView.xib in Resources */,
+				D0D89E071CA66783003E2DF7 /* TImageTableViewCell.xib in Resources */,
+				D0D89DBD1CA5906C003E2DF7 /* Assets.xcassets in Resources */,
+				D0D89DDE1CA59B3E003E2DF7 /* TBulbImageCell.xib in Resources */,
+				D0D89E1B1CA6BF99003E2DF7 /* TTextViewView.xib in Resources */,
+				D0D89E211CA710C0003E2DF7 /* image3.jpg in Resources */,
+				D0D89DFA1CA65E73003E2DF7 /* TDatePickerView.xib in Resources */,
+				D0D89E111CA67394003E2DF7 /* bulbON@2x.png in Resources */,
+				D0D89E161CA67573003E2DF7 /* TUserInfoView.xib in Resources */,
+				D0D89DD31CA59449003E2DF7 /* Default-568h@2x.png in Resources */,
+				D0D89DD91CA597A4003E2DF7 /* TDisclosureInfoButtonCell.xib in Resources */,
+				D0D89DE71CA59F3B003E2DF7 /* TCollectionView.xib in Resources */,
+				D0D89E201CA710C0003E2DF7 /* image2.jpg in Resources */,
+				D0D89E1F1CA710C0003E2DF7 /* image1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D89DA91CA5906C003E2DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D89DF01CA63BB2003E2DF7 /* TMapViewController.m in Sources */,
+				D0D89DFF1CA65F74003E2DF7 /* TDatePickerCellTableViewCell.m in Sources */,
+				D0D89E141CA67535003E2DF7 /* TUserInfoViewController.m in Sources */,
+				D0D89DCB1CA590BF003E2DF7 /* AppDelegate.m in Sources */,
+				D0D89E1A1CA6BF99003E2DF7 /* TTextViewViewController.m in Sources */,
+				D0D89DB21CA5906C003E2DF7 /* main.m in Sources */,
+				D0D89E061CA66783003E2DF7 /* TImageTableViewCell.m in Sources */,
+				D0D89DDD1CA59B3E003E2DF7 /* TBulbImageCell.m in Sources */,
+				D0D89DE51CA59F2B003E2DF7 /* TCollectionViewController.m in Sources */,
+				D0D89DCE1CA590EC003E2DF7 /* TFirstViewController.m in Sources */,
+				D0D89DEB1CA5A2E4003E2DF7 /* TCollectionViewCell.m in Sources */,
+				D0D89DD71CA5974A003E2DF7 /* TDisclosureInfoButtonCell.m in Sources */,
+				D0D89DFB1CA65E73003E2DF7 /* TDatePickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0D89DC21CA5906C003E2DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0D89DC31CA5906C003E2DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0D89DC51CA5906C003E2DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Manoj Patwardhan (49JWRXAH2T)";
+				INFOPLIST_FILE = SampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tascent.sampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "47212c8d-93ee-4a3e-a63a-f050e4b48a9c";
+			};
+			name = Debug;
+		};
+		D0D89DC61CA5906C003E2DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Manoj Patwardhan (49JWRXAH2T)";
+				INFOPLIST_FILE = SampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tascent.sampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "47212c8d-93ee-4a3e-a63a-f050e4b48a9c";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D89DA81CA5906C003E2DF7 /* Build configuration list for PBXProject "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D89DC21CA5906C003E2DF7 /* Debug */,
+				D0D89DC31CA5906C003E2DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D89DC41CA5906C003E2DF7 /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D89DC51CA5906C003E2DF7 /* Debug */,
+				D0D89DC61CA5906C003E2DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0D89DA51CA5906C003E2DF7 /* Project object */;
+}

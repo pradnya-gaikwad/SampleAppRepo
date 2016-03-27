@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TDatePickerViewController">
+            <connections>
+                <outlet property="btnCancel" destination="oQk-Um-mCX" id="tF8-xK-dqg"/>
+                <outlet property="btnDone" destination="QyF-gG-vii" id="suR-iN-iKm"/>
+                <outlet property="datePicker" destination="Ehp-PT-KS4" id="10G-zQ-lpZ"/>
+                <outlet property="lblDateSelected" destination="kb3-eE-J4d" id="w5m-QM-Bvq"/>
+                <outlet property="view" destination="mSC-5c-JzZ" id="CCs-c8-viV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="mSC-5c-JzZ">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ehp-PT-KS4">
+                    <rect key="frame" x="0.0" y="200" width="320" height="235"/>
+                    <date key="date" timeIntervalSinceReferenceDate="467104223.801552">
+                        <!--2015-10-21 07:10:23 +0000-->
+                    </date>
+                    <connections>
+                        <action selector="dateChanged:" destination="-1" eventType="valueChanged" id="iNz-8r-rDQ"/>
+                    </connections>
+                </datePicker>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kb3-eE-J4d">
+                    <rect key="frame" x="8" y="149" width="304" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <barButtonItem title="Done" id="QyF-gG-vii">
+            <connections>
+                <action selector="actionDone:" destination="-1" id="Pr1-Tm-1nB"/>
+            </connections>
+        </barButtonItem>
+        <barButtonItem title="Cancel" id="oQk-Um-mCX">
+            <connections>
+                <action selector="actionCancel:" destination="-1" id="HUV-t6-4fd"/>
+            </connections>
+        </barButtonItem>
+    </objects>
+</document>

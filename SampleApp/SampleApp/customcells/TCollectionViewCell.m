@@ -4,10 +4,21 @@
 
 @implementation TCollectionViewCell
 
+#pragma mark -
+#pragma mark Initialize Methods
+#pragma mark -
+
 - (void)awakeFromNib
 {
     // Initialization code
 }
+
+#pragma mark -
+#pragma mark Private Methods
+#pragma mark -
+
+// -----------------------------------------------------------------------------
+// downloadImageFromURL:
 
 - (void)downloadImageFromURL:(NSString *)inImageURL
 {

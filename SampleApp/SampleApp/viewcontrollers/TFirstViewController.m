@@ -123,6 +123,7 @@ numberOfRowsInSection:(NSInteger)inSection
 {
 	static NSString *cellIdentifier = @"CellIdentifier";
 	
+    // Intialize cell
 	UITableViewCell *cell = (UITableViewCell *)[inTableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if ( cell == nil ) 
     {
@@ -130,13 +131,15 @@ numberOfRowsInSection:(NSInteger)inSection
 									  reuseIdentifier:cellIdentifier];
     }
 	
+    
+    // Design cell accordingly
     switch ( inIndexPath.row ) {
-        case 0:
+        case TCellTypeMainView:
             // Set up cell
             cell.textLabel.text = @"Push View";
             cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             break;
-        case 1:
+        case TCellTypeModalView:
         {
             NSArray *nibs = [[NSBundle mainBundle] loadNibNamed:@"TDisclosureInfoButtonCell" owner:self options:nil];
             TDisclosureInfoButtonCell *tempCell = (TDisclosureInfoButtonCell *)[nibs objectAtIndex:0];
@@ -145,14 +148,14 @@ numberOfRowsInSection:(NSInteger)inSection
             cell = tempCell;
             break;
         }
-        case 2:
+        case TCellTypeBulbImage:
         {
             NSArray *nibs = [[NSBundle mainBundle] loadNibNamed:@"TBulbImageCell" owner:self options:nil];
             TBulbImageCell *tempCell = (TBulbImageCell *)[nibs objectAtIndex:0];
             cell = tempCell;
             break;
         }
-        case 3:
+        case TCellTypeCalendar:
         {
             NSArray *nibs = [[NSBundle mainBundle] loadNibNamed:@"TDatePickerCellTableViewCell" owner:self options:nil];
             TDatePickerCellTableViewCell *tempCell = (TDatePickerCellTableViewCell *)[nibs objectAtIndex:0];
@@ -164,7 +167,7 @@ numberOfRowsInSection:(NSInteger)inSection
             cell = tempCell;
             break;
         }
-        case 4:
+        case TCellTypeImageTitleSubtitle:
         {
             NSArray *nibs = [[NSBundle mainBundle] loadNibNamed:@"TImageTableViewCell" owner:self options:nil];
             TImageTableViewCell *tempCell = (TImageTableViewCell *)[nibs objectAtIndex:0];
@@ -175,7 +178,6 @@ numberOfRowsInSection:(NSInteger)inSection
             cell = tempCell;
             break;
         }
-
     }
 		
 	// Return
@@ -191,17 +193,17 @@ numberOfRowsInSection:(NSInteger)inSection
     [inTableView deselectRowAtIndexPath:inIndexPath animated:YES];
     switch (inIndexPath.row)
     {
-        case 0:
+        case TCellTypeMainView:
         {
             TCollectionViewController *con = [[TCollectionViewController alloc] initWithNibName:nil bundle:nil];
             [self.navigationController pushViewController:con animated:YES];
             break;
         }
-        case 1:
+        case TCellTypeModalView:
         {
             break;
         }
-        case 3:
+        case TCellTypeCalendar:
         {
             TDatePickerViewController *viewCon = [[TDatePickerViewController alloc] initWithNibName:nil bundle:nil];
             viewCon.delegate = self;
@@ -216,8 +218,9 @@ numberOfRowsInSection:(NSInteger)inSection
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath 
 {
+    // Set height to cell accordingly
     CGFloat height = 44.0;
-    if ( indexPath.row == 4) {
+    if ( indexPath.row == TCellTypeImageTitleSubtitle ) {
         height = 80.0;
     }
     return height;

@@ -55,6 +55,7 @@
     [super viewDidLoad];
     
     [self.navigationItem setTitle:@"List"];
+    
     // Register nib
     [self.collectionView registerNib:[UINib nibWithNibName:@"TCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"Cell"];
 }

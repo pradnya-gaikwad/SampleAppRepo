@@ -50,6 +50,8 @@
     
     self.edgesForExtendedLayout = UIRectEdgeNone;
     
+    self.navigationController.navigationBar.translucent = NO;
+    
     pageControlUsed = NO;
     
     // Set delegate of scrollview
@@ -58,7 +60,6 @@
     
     // Add imageview in scrollview
     arrImages = [NSMutableArray arrayWithObjects:@"image1.jpg",@"image2.jpg",@"image3.jpg", nil];
-    
     for ( int i = 0; i < [arrImages count]; i++) {
         
         CGRect frame;
@@ -83,8 +84,6 @@
     
     // Detect links, phone no and email addresses
     self.txtView.dataDetectorTypes = UIDataDetectorTypeAll;
-
-
 }
 
 // -----------------------------------------------------------------------------

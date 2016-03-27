@@ -1,5 +1,15 @@
 #import <UIKit/UIKit.h>
 
+
+typedef enum TCellType {
+    TCellTypeMainView = 0,
+    TCellTypeModalView,
+    TCellTypeBulbImage,
+    TCellTypeCalendar,
+    TCellTypeImageTitleSubtitle,
+} TCellType;
+
+
 @interface TFirstViewController : UIViewController
 {
     NSString *selectedDate;
